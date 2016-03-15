@@ -1,5 +1,28 @@
+body{
+  margin-left: 2em;
+  margin-right: 2em;
+}
+footer{
+  display: flex;
+  justify-content: center;
+}
+#logo h1{
+  display: flex;
+  justify-content: center;
+}
+#logo p{
+  display: flex;
+  justify-content: center;
+}
+#nav-menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 nav ul{
-  padding: none;
+  -webkit-padding-start: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
 }
 nav li{
   display: inline-block;

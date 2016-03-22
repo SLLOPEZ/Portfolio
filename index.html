@@ -10,22 +10,22 @@
   </head>
   <body>
     <header>
-      <div id='logo'>
+      <div id='site-header'>
         <h1>Stephanie Lopez</h1>
         <p>The key to more success is to get a massage once a week, very important, major key, cloth talk.</p>
       </div>
       <div id='nav-menu'>
         <nav>
           <ul>
-            <li><a href='#'>Work</a></li>
-            <li><a href='#'>About Me</a></li>
-            <li><a href='#'>Contact</a></li>
+            <li class='tab' data-content='project'><a href='#'>Work</a></li>
+            <li class='tab' data-content='about'><a href='#'>About Me</a></li>
+            <li class='tab' data-content='contact'><a href='#'>Contact</a></li>
           </ul>
         </nav>
       </div>
     </header>
     <main>
-      <section id='project'>
+      <section class='tab-content' id='project'>
         <h2>Work</h2>
         <article class='template'>
           <h3>Project</h3>
@@ -33,13 +33,13 @@
           <section class='project-body'></section>
         </article>
       </section>
-      <section id='about'>
+      <section class='tab-content' id='about'>
         <h2>About Me</h2>
         <p>
           We the best. Cloth talk. It’s important to use cocoa butter. It’s the key to more success, why not live smooth? Why live rough? You see the hedges, how I got it shaped up? It’s important to shape up your hedges, it’s like getting a haircut, stay fresh. Lion!
         </p>
       </section>
-      <section id='contact'>
+      <section class='tab-content' id='contact'>
         <h2>Let's Talk</h2>
         <p>
           Various ways to reach me.
@@ -54,5 +54,6 @@
     </footer>
     <script type='text/javascript' src='scripts/projects.js'></script>
     <script type='text/javascript' src='scripts/app.js'></script>
+    <script type='text/javascript' src='scripts/views.js'></script>
   </body>
 </html>

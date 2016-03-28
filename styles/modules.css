@@ -3,8 +3,47 @@
 }
 a, a:visited{
   text-decoration: none;
-  color: black;
+  color: #3B3A36;
 }
 a:hover{
-  color: lightgray;
+  color: #E9ECE5;
+}
+.module h2{
+  margin-bottom: 2.5em;
+  font-size: 1.875em;
+  margin-top: 0;
+}
+.module h3{
+  font-size: 1.25em;
+}
+.module p{
+  font-size: 1em;
+  margin-bottom: 2.5em;
+}
+.tab-content{
+  height: 40em;
+  color: white;
+}
+#site-header{
+  height: 40em;
+  background-color: #3B3A36;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#site-header h1{
+  color: #E9ECE5;
+  font-size: 3em;
+}
+#project{
+  background-color: #B3C2BF;
+}
+#about{
+  background-color: #C0DFD9;
+}
+#contact{
+  background-color: #EBF2EB;
+}
+footer p{
+  color: #3B3A36;
 }
